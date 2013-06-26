@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<k.k.sharma.corouselpagerkk.PagerContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pager_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:background="#CCC" >
+
+    <k.k.sharma.corouselpagerkk.KKViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/kk_pager"
+        android:layout_gravity="center_horizontal|center_vertical" 
+        android:layout_width="200dp"
+     
+        android:layout_height="300dp" />
+
+</k.k.sharma.corouselpagerkk.PagerContainer>
