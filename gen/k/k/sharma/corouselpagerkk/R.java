@@ -74,24 +74,32 @@ containing a value of this type.
     }
     public static final class id {
         public static final int accordion=0x7f04000b;
-        public static final int action_settings=0x7f04000f;
+        public static final int action_settings=0x7f040015;
+        public static final int card=0x7f040011;
         public static final int cubein=0x7f040002;
         public static final int cubeout=0x7f040003;
+        public static final int exit=0x7f040010;
         public static final int fliphorizontal=0x7f040005;
         public static final int flipvertical=0x7f040004;
         public static final int jazzy_key=0x7f04000c;
-        public static final int kk_pager=0x7f04000e;
-        public static final int pager_container=0x7f04000d;
+        public static final int kk_pager=0x7f04000d;
+        public static final int listView1=0x7f040014;
         public static final int rotatedown=0x7f04000a;
         public static final int rotateup=0x7f040009;
         public static final int stack=0x7f040006;
         public static final int standard=0x7f040000;
         public static final int tablet=0x7f040001;
+        public static final int textView1=0x7f04000f;
+        public static final int title=0x7f040012;
+        public static final int update=0x7f04000e;
+        public static final int viewSwitcher=0x7f040013;
         public static final int zoomin=0x7f040007;
         public static final int zoomout=0x7f040008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int detail_view=0x7f030001;
+        public static final int item=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
