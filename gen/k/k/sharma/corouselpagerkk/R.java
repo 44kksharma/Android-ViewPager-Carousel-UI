@@ -160,7 +160,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fadeEnabled
+          @attr name k.k.sharma.corouselpagerkk:fadeEnabled
         */
         public static final int KKViewPager_fadeEnabled = 1;
         /**
@@ -172,7 +172,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:outlineColor
+          @attr name k.k.sharma.corouselpagerkk:outlineColor
         */
         public static final int KKViewPager_outlineColor = 3;
         /**
@@ -186,7 +186,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:outlineEnabled
+          @attr name k.k.sharma.corouselpagerkk:outlineEnabled
         */
         public static final int KKViewPager_outlineEnabled = 2;
         /**
@@ -213,7 +213,7 @@ containing a value of this type.
 <tr><td><code>rotatedown</code></td><td>10</td><td></td></tr>
 <tr><td><code>accordion</code></td><td>11</td><td></td></tr>
 </table>
-          @attr name android:style
+          @attr name k.k.sharma.corouselpagerkk:style
         */
         public static final int KKViewPager_style = 0;
     };
