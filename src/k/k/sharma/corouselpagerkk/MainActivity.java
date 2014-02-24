@@ -16,13 +16,6 @@ import android.view.View;
 public class MainActivity extends FragmentActivity implements
 		ViewPager.OnPageChangeListener {
 	private Point p;
-	@Override
-	public void onConfigurationChanged(Configuration newConfig) {
-		// TODO Auto-generated method stub
-		super.onConfigurationChanged(newConfig);
-		Log.d("config","changed");
-	}
-
 	private Display display;
 	private KKViewPager mPager;
 	private TestFragmentAdapter mAdapter;
