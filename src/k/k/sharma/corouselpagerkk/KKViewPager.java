@@ -236,9 +236,10 @@ public class KKViewPager extends ViewPager {
 	public void onWindowFocusChanged(boolean hasWindowFocus) {
 		// TODO Auto-generated method stub
 		super.onWindowFocusChanged(hasWindowFocus);
-		update();
+	
 		if (isFirstTime) {
 			isFirstTime = false;
+			update();
 			hack();
 		}
 	}
