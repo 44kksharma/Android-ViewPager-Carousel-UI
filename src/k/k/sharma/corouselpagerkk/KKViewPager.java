@@ -261,6 +261,7 @@ public class KKViewPager extends ViewPager {
 	}
 
 	public void hack() {
+		
 		if (this != null) {
 			MotionEvent event = MotionEvent.obtain(SystemClock.uptimeMillis(),
 					SystemClock.uptimeMillis(), MotionEvent.ACTION_DOWN,
@@ -268,7 +269,7 @@ public class KKViewPager extends ViewPager {
 			this.dispatchTouchEvent(event);
 			event.recycle();
 
-			for (int i = 0; i <= 15; i++) {
+			for (int i = 0; i >= -15; i--) {
 
 				event = MotionEvent.obtain(SystemClock.uptimeMillis(),
 						SystemClock.uptimeMillis(), MotionEvent.ACTION_MOVE,
@@ -278,7 +279,7 @@ public class KKViewPager extends ViewPager {
 
 			}
 
-			for (int i = 15; i >= -15; i--) {
+			for (int i = -15; i<= 15; i++) {
 
 				event = MotionEvent.obtain(SystemClock.uptimeMillis(),
 						SystemClock.uptimeMillis(), MotionEvent.ACTION_MOVE,
@@ -287,7 +288,7 @@ public class KKViewPager extends ViewPager {
 				event.recycle();
 
 			}
-			for (int i = -15; i <= 0; i++) {
+			for (int i = 15; i >= 0; i--) {
 
 				event = MotionEvent.obtain(SystemClock.uptimeMillis(),
 						SystemClock.uptimeMillis(), MotionEvent.ACTION_MOVE,
@@ -303,6 +304,7 @@ public class KKViewPager extends ViewPager {
 			this.dispatchTouchEvent(event);
 			event.recycle();
 		}
+	
 	}
 
 	public void getReadyWithNextTwoView(int arg0) {
