@@ -17,6 +17,9 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
     private float MAX_SCALE = 0.0f;
     private int mPageMargin;
     private boolean animationEnabled=true;
+    private boolean fadeEnabled=false;
+    private  float fadeFactor=0.5f;
+
 
     public KKViewPager(Context context) {
         this(context, null);
@@ -41,6 +44,15 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
     public void setAnimationEnabled(boolean enable) {
         this.animationEnabled = enable;
     }
+
+    public void setFadeEnabled(boolean fadeEnabled) {
+        this.fadeEnabled = fadeEnabled;
+    }
+
+    public void setFadeFactor(float fadeFactor) {
+        this.fadeFactor = fadeFactor;
+    }
+
     @Override
     public void setPageMargin(int marginPixels) {
         mPageMargin = marginPixels;
@@ -59,7 +71,8 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
         position = position - MAX_SCALE;
         float absolutePosition = Math.abs(position);
         if (position <= -1.0f || position >= 1.0f) {
-
+            if(fadeEnabled)
+            page.setAlpha(fadeFactor);
             // Page is not visible -- stop any running animations
 
         } else if (position == 0.0f) {
@@ -67,9 +80,12 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
             // Page is selected -- reset any views if necessary
             page.setScaleX((1 + MAX_SCALE));
             page.setScaleY((1 + MAX_SCALE));
+            page.setAlpha(1);
         } else {
             page.setScaleX(1 + MAX_SCALE * (1 - absolutePosition));
             page.setScaleY(1 + MAX_SCALE * (1 - absolutePosition));
+            if(fadeEnabled)
+            page.setAlpha( Math.max(fadeFactor, 1 - absolutePosition));
         }
     }
 }

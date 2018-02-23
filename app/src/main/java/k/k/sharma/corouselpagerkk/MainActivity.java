@@ -36,6 +36,9 @@ public class MainActivity extends FragmentActivity {
         mPager.setAdapter(new TestFragmentAdapter(getSupportFragmentManager(),
                 MainActivity.this, CONTENT2));
         mPager.setAnimationEnabled(true);
+        mPager.setFadeEnabled(true);
+        mPager.setFadeFactor(0.6f);
+
     }
     private void updateNoOfCards() {
         if (toggle = !toggle) {
