@@ -1,3 +1,0 @@
-Android-ViewPager-Carousel-UI
-=============================
-

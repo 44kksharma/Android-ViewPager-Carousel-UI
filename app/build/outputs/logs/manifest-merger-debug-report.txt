@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+MERGED from [com.android.support:design:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/89e0ecfa09213d4af5b16765ac4d5ab9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/0e1034ff555f3ab35a36d728842531b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ed2a44f80567a29a9662eec297760e53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/50b58a46e1df7d96bd8044ff86209239/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/34e7e8395e6720a790254ae054557cf1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/100cf61d1526448cef87738d6ad2e3c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/e4ec407d4fd994df696296ee0595a60f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/83c004efefdaf27ea2b28c684fd84fd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/714730db2689591f54d0e580b7369878/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6bf913947478448f26935533b2fb2888/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/58ec876ef36793785f366f1f87b146d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/1768722940ea750693260f3ab48ee87f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/f214f52927fe7b145b1d9bf6638be9e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:1-38:12
+	package
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:8:5-41
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:10:5-30
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:7:11-69
+	android:versionCode
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:9:5-28
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:12:5-14:41
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:12:5-14:41
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:design:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/89e0ecfa09213d4af5b16765ac4d5ab9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/89e0ecfa09213d4af5b16765ac4d5ab9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/0e1034ff555f3ab35a36d728842531b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/0e1034ff555f3ab35a36d728842531b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ed2a44f80567a29a9662eec297760e53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ed2a44f80567a29a9662eec297760e53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/50b58a46e1df7d96bd8044ff86209239/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/50b58a46e1df7d96bd8044ff86209239/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/34e7e8395e6720a790254ae054557cf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/34e7e8395e6720a790254ae054557cf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/100cf61d1526448cef87738d6ad2e3c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/100cf61d1526448cef87738d6ad2e3c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/e4ec407d4fd994df696296ee0595a60f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/e4ec407d4fd994df696296ee0595a60f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/83c004efefdaf27ea2b28c684fd84fd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/83c004efefdaf27ea2b28c684fd84fd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/714730db2689591f54d0e580b7369878/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/714730db2689591f54d0e580b7369878/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6bf913947478448f26935533b2fb2888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6bf913947478448f26935533b2fb2888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/58ec876ef36793785f366f1f87b146d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/58ec876ef36793785f366f1f87b146d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/1768722940ea750693260f3ab48ee87f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/1768722940ea750693260f3ab48ee87f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/f214f52927fe7b145b1d9bf6638be9e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/f214f52927fe7b145b1d9bf6638be9e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:12:5-14:41
+INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:12:5-14:41
+	android:targetSdkVersion
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:14:9-38
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:13:9-35
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:16:5-36:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:20:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:18:9-43
+	android:icon
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:17:9-36
+	android:theme
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:21:9-73
+activity#k.k.sharma.corouselpagerkk.MainActivity
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:25:13-45
+	android:hardwareAccelerated
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:23:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:29:27-74
+activity#k.k.sharma.corouselpagerkk.DetailViewActivity
+ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:32:9-35:20
+	android:label
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /Users/ksharm0/Documents/Repo/Android-ViewPager-Carousel-UI/app/src/main/AndroidManifest.xml:33:13-47
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ksharm0/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/887e7c4ca57f96f6563a4d5bbe6f3125/AndroidManifest.xml:26:13-58
