@@ -35,6 +35,7 @@ public class MainActivity extends FragmentActivity {
         mPager = (KKViewPager) findViewById(R.id.kk_pager);
         mPager.setAdapter(new TestFragmentAdapter(getSupportFragmentManager(),
                 MainActivity.this, CONTENT2));
+        mPager.setAnimationEnabled(true);
     }
     private void updateNoOfCards() {
         if (toggle = !toggle) {

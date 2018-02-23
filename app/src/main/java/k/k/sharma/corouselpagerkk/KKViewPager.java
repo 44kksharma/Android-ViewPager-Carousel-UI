@@ -1,7 +1,7 @@
 package k.k.sharma.corouselpagerkk;
 /*
  * 
- * Copyright (C) 2014 Krishna Kumar Sharma
+ * Copyright (C) 2018 Krishna Kumar Sharma
  * 
  */
 
@@ -16,6 +16,7 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
     public static final String TAG = "KKViewPager";
     private float MAX_SCALE = 0.0f;
     private int mPageMargin;
+    private boolean animationEnabled=true;
 
     public KKViewPager(Context context) {
         this(context, null);
@@ -37,7 +38,9 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
     public int dp2px(Resources resource, int dp) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, resource.getDisplayMetrics());
     }
-
+    public void setAnimationEnabled(boolean enable) {
+        this.animationEnabled = enable;
+    }
     @Override
     public void setPageMargin(int marginPixels) {
         mPageMargin = marginPixels;
@@ -46,7 +49,7 @@ public class KKViewPager extends ViewPager implements ViewPager.PageTransformer 
 
     @Override
     public void transformPage(View page, float position) {
-        if (mPageMargin <= 0)
+        if (mPageMargin <= 0|| !animationEnabled)
             return;
         page.setPadding(mPageMargin / 3, mPageMargin / 3, mPageMargin / 3, mPageMargin / 3);
 
